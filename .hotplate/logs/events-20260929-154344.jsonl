@@ -2354,3 +2354,15 @@
 {"ts":"2026-09-29T16:13:14.439Z","session":"20260929-154344","kind":"http_request","data":{"method":"GET","path":"/WebShopHTMLStructure/images/Wrist-Straps-Banner.jpg","status":304,"duration_ms":0}}
 {"ts":"2026-09-29T16:13:14.440Z","session":"20260929-154344","kind":"http_request","data":{"method":"GET","path":"/WebShopHTMLStructure/images/Lifting-Belt-Banner.jpg","status":304,"duration_ms":0}}
 {"ts":"2026-09-29T16:13:14.444Z","session":"20260929-154344","kind":"ws_connect","data":{"client_id":"c206","url":"http://localhost:5500/WebShopHTMLStructure/index.html","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Safari/605.1.15","viewport":[1470,833]}}
+{"ts":"2026-09-29T16:18:49.165Z","session":"20260929-154344","kind":"file_change","data":{"path":"styleguide.md","ext":"md","change":"modify"}}
+{"ts":"2026-09-29T16:18:49.165Z","session":"20260929-154344","kind":"reload_trigger","data":{"path":"styleguide.md","reload_type":"full"}}
+{"ts":"2026-09-29T16:18:49.173Z","session":"20260929-154344","kind":"http_request","data":{"method":"GET","path":"/WebShopHTMLStructure/index.html","status":200,"duration_ms":0}}
+{"ts":"2026-09-29T16:18:49.175Z","session":"20260929-154344","kind":"ws_disconnect","data":{"client_id":"c206"}}
+{"ts":"2026-09-29T16:18:49.178Z","session":"20260929-154344","kind":"http_request","data":{"method":"GET","path":"/WebShopHTMLStructure/images/Hoodie-Banner.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-09-29T16:18:49.184Z","session":"20260929-154344","kind":"http_request","data":{"method":"GET","path":"/WebShopHTMLStructure/images/Gym-Bag-Banner.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-09-29T16:18:49.184Z","session":"20260929-154344","kind":"http_request","data":{"method":"GET","path":"/WebShopHTMLStructure/images/Lifting-Belt-Banner.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-09-29T16:18:49.184Z","session":"20260929-154344","kind":"http_request","data":{"method":"GET","path":"/WebShopHTMLStructure/images/Shaker-Banner.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-09-29T16:18:49.184Z","session":"20260929-154344","kind":"http_request","data":{"method":"GET","path":"/WebShopHTMLStructure/images/Wrist-Straps-Banner.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-09-29T16:18:49.185Z","session":"20260929-154344","kind":"http_request","data":{"method":"GET","path":"/WebShopHTMLStructure/images/Whey-Protein-Banner.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-09-29T16:18:49.185Z","session":"20260929-154344","kind":"http_request","data":{"method":"GET","path":"/WebShopHTMLStructure/images/AL-Logo.png","status":304,"duration_ms":0}}
+{"ts":"2026-09-29T16:18:49.187Z","session":"20260929-154344","kind":"ws_connect","data":{"client_id":"c207","url":"http://localhost:5500/WebShopHTMLStructure/index.html","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Safari/605.1.15","viewport":[1470,833]}}
