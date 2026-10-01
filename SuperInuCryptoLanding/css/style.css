@@ -1,22 +1,25 @@
+* {
+  font-family: sans-serif;
+}
 header {
   align-items: center;
   display: flex;
-  height: 100px;
+  height: 80px;
 }
 img.logo {
-  width: 70px;
+  width: 400px;
+  border-radius: 10%;
+  border: 2px solid #211b2d;
+  box-shadow: 0px 0px 30px #211b2d;
 }
 div.header {
   flex: 1;
   text-align: center;
-  font-size: 15px;
+  font-size: 30px;
   color: white;
 }
 div#contract {
   margin-top: 10px;
-}
-header {
-  background-color: #171321;
 }
 body {
   background-color: #0d0b14;
@@ -47,6 +50,7 @@ article h2 {
   justify-content: center;
 }
 article {
+  box-shadow: 0px 0px 40px #322a44;
   border: 2px dotted #dbd2ea;
   margin-left: 200px;
   margin-right: 200px;
@@ -54,6 +58,7 @@ article {
   color: white;
 }
 main div {
+  box-shadow: 0px 0px 40px #322a44;
   border-color: wheat;
   margin-left: 200px;
   margin-right: 200px;
@@ -73,9 +78,11 @@ button {
   font-size: 20px;
 }
 footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
   min-height: 40px;
   color: white;
-  background-color: black;
 }
 img.social-media {
   width: 60px;
@@ -109,4 +116,33 @@ main > div {
 main {
   padding-bottom: 10px;
   padding-top: 10px;
+}
+main > figure {
+  display: flex;
+  justify-content: center;
+}
+a#top {
+  margin: 5px;
+  margin-left: auto;
+  text-align: end;
+  text-decoration: none;
+  color: #b8b0c7;
+}
+#copyButtonDiv {
+  box-shadow: none;
+}
+address > a > figure {
+  opacity: 50%;
+}
+address > a > figure:hover {
+  opacity: 100%;
+}
+#copyButton:hover {
+  background-color: #39d98a;
+  border: none;
+  border-radius: 5px;
+}
+#copyButton {
+  border: none;
+  border-radius: 5px;
 }
