@@ -4,21 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" type="module"></script>
     <title>Super Inu</title>
   </head>
   <body>
     <header>
       <figure>
-        <img src="./images/600x600.webp" alt="Super Inu Logo" class="logo" />
+        <img src="./images/logo.webp" alt="Super Inu Logo" class="logo" />
       </figure>
       <div class="header"><h1>Super Inu</h1></div>
     </header>
     <main>
       <nav>
-        <a href="">BUY</a><a href="">ABOUT</a><a href="">SOCIAL MEDIA</a
-        ><a href="">CONTRACT</a>
+        <a href="">BUY</a><a href="#about">ABOUT</a
+        ><a href="#socialMedia">SOCIAL MEDIA</a><a href="#contract">CONTRACT</a>
       </nav>
-      <article>
+      <article id="about">
         <h2>About</h2>
         <p>
           <strong>About Super Inu 🐕 </strong><br /><strong>Super Inu</strong>
@@ -41,20 +42,40 @@
           >
         </p>
       </article>
-      <div>
+      <div id="contract">
         <h2>Contract</h2>
-        <div><button>DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP</button></div>
+        <div>
+          <button id="copyButton">
+            DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP
+          </button>
+          <div id="message">Copied!</div>
+        </div>
       </div>
     </main>
     <article id="socialMedia">
       <h2>Social Media</h2>
       <address>
         <a href=""
-          ><figure><img src="" alt="" /></figure></a
+          ><figure>
+            <img
+              src="./images/pump-fun-logo.png"
+              alt="pump fun logo"
+              class="social-media"
+            /></figure></a
         ><a href=""
-          ><figure><img src="" alt="" /></figure></a
+          ><figure>
+            <img
+              src="./images/X_logo.jpg"
+              alt="x logo"
+              class="social-media"
+            /></figure></a
         ><a href=""
-          ><figure><img src="" alt="" /></figure
+          ><figure>
+            <img
+              src="./images/solscan-logo.svg"
+              alt="solscan logo"
+              class="social-media"
+            /></figure
         ></a>
       </address>
     </article>

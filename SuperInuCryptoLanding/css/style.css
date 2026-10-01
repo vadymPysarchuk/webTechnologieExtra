@@ -12,11 +12,14 @@ div.header {
   font-size: 15px;
   color: white;
 }
+div#contract {
+  margin-top: 10px;
+}
 header {
-  background-color: black;
+  background-color: #171321;
 }
 body {
-  background-color: aqua;
+  background-color: #0d0b14;
 }
 nav {
   display: flex;
@@ -24,13 +27,12 @@ nav {
   gap: 20px;
   margin-top: 20px;
   text-align: center;
-  background-color: black;
   min-height: 70px;
   padding: 10px;
 }
 nav a {
   min-width: 100px;
-  background-color: orange;
+  background-color: #ff8a00;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -38,22 +40,24 @@ nav a {
   font-size: 30px;
 }
 nav a:hover {
-  background-color: green;
+  background-color: #ffa733;
 }
 article h2 {
   display: flex;
   justify-content: center;
 }
 article {
+  border: 2px dotted #dbd2ea;
   margin-left: 200px;
   margin-right: 200px;
-  background-color: black;
+  background-color: #211b2d;
   color: white;
 }
-div {
+main div {
+  border-color: wheat;
   margin-left: 200px;
   margin-right: 200px;
-  background-color: black;
+  background-color: #211b2d;
   color: white;
   padding-bottom: 5px;
 }
@@ -69,7 +73,40 @@ button {
   font-size: 20px;
 }
 footer {
-  min-height: 20px;
+  min-height: 40px;
   color: white;
   background-color: black;
+}
+img.social-media {
+  width: 60px;
+}
+address {
+  display: flex;
+  justify-content: center;
+}
+article#socialMedia {
+  border: 2px dotted #dbd2ea;
+}
+p {
+  margin: 5px;
+  color: #b8b0c7;
+}
+div#message {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  background-color: #39d98a;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+h1 {
+  color: #f5f2fa;
+}
+main > div {
+  border: 2px dotted #dbd2ea;
+}
+main {
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
