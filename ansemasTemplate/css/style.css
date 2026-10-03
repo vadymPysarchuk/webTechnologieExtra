@@ -1,0 +1,88 @@
+header #logo {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: auto 5px;
+  border: solid 2px yellow;
+}
+header > div:first-child {
+  margin-left: 10%;
+  margin-right: auto;
+}
+header > div:last-child {
+  margin-right: 10%;
+  margin-left: auto;
+}
+header {
+  display: flex;
+  background-color: brown;
+  height: 100px;
+  color: white;
+}
+header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  margin: auto 5px;
+  width: 160px;
+  height: 40px;
+}
+header a:last-child {
+  background-color: red;
+}
+header a:first-child {
+  border: 1px solid white;
+}
+header h1 {
+  margin: auto 0px;
+}
+header > div {
+  display: flex;
+  margin: auto 0px;
+}
+
+main > figure > img:first-child {
+  width: 100%;
+}
+figure {
+  margin: 0px;
+}
+main {
+  text-align: center;
+  background-color: brown;
+}
+#main-logo {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 50%;
+  border: solid 2px yellow;
+}
+#titel {
+  color: yellow;
+}
+main > section > div {
+  margin: 0px auto;
+  margin-bottom: 10px;
+}
+main > section > div,
+#titel,
+main p,
+main h1 {
+  transform: translateY(-40px);
+}
+main h1 {
+  font-size: 100px;
+  margin: 0px;
+  color: white;
+}
+main p {
+  margin: 0px;
+  color: gainsboro;
+  margin-bottom: 50px;
+  font-size: 18px;
+}

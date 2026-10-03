@@ -6933,3 +6933,26 @@
 {"ts":"2026-10-01T20:42:36.854Z","session":"20261001-165242","kind":"http_request","data":{"method":"GET","path":"/SuperInuCryptoLanding/images/X_logo.jpg","status":304,"duration_ms":0}}
 {"ts":"2026-10-01T20:42:36.855Z","session":"20261001-165242","kind":"http_request","data":{"method":"GET","path":"/SuperInuCryptoLanding/images/solscan-logo.svg","status":304,"duration_ms":0}}
 {"ts":"2026-10-01T20:42:36.864Z","session":"20261001-165242","kind":"ws_connect","data":{"client_id":"c634","url":"http://localhost:5500/SuperInuCryptoLanding/index.html#","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Safari/605.1.15","viewport":[1470,833]}}
+{"ts":"2026-10-01T20:43:17.422Z","session":"20261001-165242","kind":"file_change","data":{"path":"SuperInuCryptoLanding/index.html","ext":"html","change":"modify"}}
+{"ts":"2026-10-01T20:43:17.422Z","session":"20261001-165242","kind":"reload_trigger","data":{"path":"SuperInuCryptoLanding/index.html","reload_type":"full"}}
+{"ts":"2026-10-01T20:43:17.431Z","session":"20261001-165242","kind":"http_request","data":{"method":"GET","path":"/SuperInuCryptoLanding/index.html","status":200,"duration_ms":0}}
+{"ts":"2026-10-01T20:43:17.433Z","session":"20261001-165242","kind":"ws_disconnect","data":{"client_id":"c634"}}
+{"ts":"2026-10-01T20:43:17.437Z","session":"20261001-165242","kind":"http_request","data":{"method":"GET","path":"/SuperInuCryptoLanding/css/style.css","status":304,"duration_ms":0}}
+{"ts":"2026-10-01T20:43:17.442Z","session":"20261001-165242","kind":"http_request","data":{"method":"GET","path":"/SuperInuCryptoLanding/js/script.js","status":304,"duration_ms":0}}
+{"ts":"2026-10-01T20:43:17.443Z","session":"20261001-165242","kind":"http_request","data":{"method":"GET","path":"/SuperInuCryptoLanding/images/X_logo.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-10-01T20:43:17.443Z","session":"20261001-165242","kind":"http_request","data":{"method":"GET","path":"/SuperInuCryptoLanding/images/pump-fun-logo.png","status":304,"duration_ms":0}}
+{"ts":"2026-10-01T20:43:17.443Z","session":"20261001-165242","kind":"http_request","data":{"method":"GET","path":"/SuperInuCryptoLanding/images/logo.webp","status":304,"duration_ms":0}}
+{"ts":"2026-10-01T20:43:17.445Z","session":"20261001-165242","kind":"http_request","data":{"method":"GET","path":"/SuperInuCryptoLanding/images/solscan-logo.svg","status":304,"duration_ms":0}}
+{"ts":"2026-10-01T20:43:17.462Z","session":"20261001-165242","kind":"ws_connect","data":{"client_id":"c635","url":"http://localhost:5500/SuperInuCryptoLanding/index.html#","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Safari/605.1.15","viewport":[1470,833]}}
+{"ts":"2026-10-01T20:43:44.137Z","session":"20261001-165242","kind":"file_change","data":{"path":"SuperInuCryptoLanding/index.html","ext":"html","change":"modify"}}
+{"ts":"2026-10-01T20:43:44.137Z","session":"20261001-165242","kind":"reload_trigger","data":{"path":"SuperInuCryptoLanding/index.html","reload_type":"full"}}
+{"ts":"2026-10-01T20:43:44.146Z","session":"20261001-165242","kind":"http_request","data":{"method":"GET","path":"/SuperInuCryptoLanding/index.html","status":200,"duration_ms":0}}
+{"ts":"2026-10-01T20:43:44.148Z","session":"20261001-165242","kind":"ws_disconnect","data":{"client_id":"c635"}}
+{"ts":"2026-10-01T20:43:44.152Z","session":"20261001-165242","kind":"http_request","data":{"method":"GET","path":"/SuperInuCryptoLanding/js/script.js","status":304,"duration_ms":0}}
+{"ts":"2026-10-01T20:43:44.153Z","session":"20261001-165242","kind":"http_request","data":{"method":"GET","path":"/SuperInuCryptoLanding/css/style.css","status":304,"duration_ms":0}}
+{"ts":"2026-10-01T20:43:44.153Z","session":"20261001-165242","kind":"http_request","data":{"method":"GET","path":"/SuperInuCryptoLanding/images/logo.webp","status":304,"duration_ms":0}}
+{"ts":"2026-10-01T20:43:44.154Z","session":"20261001-165242","kind":"http_request","data":{"method":"GET","path":"/SuperInuCryptoLanding/images/pump-fun-logo.png","status":304,"duration_ms":0}}
+{"ts":"2026-10-01T20:43:44.155Z","session":"20261001-165242","kind":"http_request","data":{"method":"GET","path":"/SuperInuCryptoLanding/images/X_logo.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-10-01T20:43:44.156Z","session":"20261001-165242","kind":"http_request","data":{"method":"GET","path":"/SuperInuCryptoLanding/images/solscan-logo.svg","status":304,"duration_ms":0}}
+{"ts":"2026-10-01T20:43:44.163Z","session":"20261001-165242","kind":"ws_connect","data":{"client_id":"c636","url":"http://localhost:5500/SuperInuCryptoLanding/index.html#","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Safari/605.1.15","viewport":[1470,833]}}
+{"ts":"2026-10-02T08:00:13.045Z","session":"20261001-165242","kind":"ws_disconnect","data":{"client_id":"c636"}}
