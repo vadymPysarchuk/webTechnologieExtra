@@ -65,14 +65,14 @@ main {
 #titel {
   color: yellow;
 }
-main > section > div {
+main > section > div#main-logo {
   margin: 0px auto;
   margin-bottom: 10px;
 }
-main > section > div,
+main > section > div#main-logo,
 #titel,
-main p,
-main h1 {
+main > section > p,
+main > section > h1 {
   transform: translateY(-40px);
 }
 main h1 {
@@ -85,4 +85,60 @@ main p {
   color: gainsboro;
   margin-bottom: 50px;
   font-size: 18px;
+}
+section:nth-of-type(2) {
+  display: flex;
+  background-color: brown;
+  justify-content: center;
+}
+section:nth-of-type(2) > div {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+  width: fit-content;
+}
+section:nth-of-type(2) .img {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 50%;
+  border: solid white 2px;
+}
+section:nth-of-type(2) .operators {
+  margin: 40px 20px;
+  color: yellow;
+  font-size: 100px;
+  font-weight: 900;
+}
+body > main > section:nth-child(3) > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.section2Tickers {
+  margin-top: 10px;
+  color: white;
+  font-size: 40px;
+}
+.section2BottomText {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgba(128, 128, 128, 0.365);
+  color: rgb(195, 195, 195);
+  font-size: 20px;
+  border-radius: 15px;
+}
+body
+  > main
+  > section:nth-child(3)
+  > div
+  > div:nth-child(5)
+  > span.section2BottomText {
+  background-color: red;
+  color: white;
+}
+main > section:nth-child(3) > div > div:nth-child(5) > div {
+  border-color: yellow;
 }
