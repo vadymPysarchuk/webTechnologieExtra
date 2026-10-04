@@ -37,8 +37,15 @@ header a {
 header a:last-child {
   background-color: red;
 }
+header a:last-child:hover {
+  outline: yellow solid 1px;
+}
 header a:first-child {
   border: 1px solid white;
+}
+header a:first-child:hover {
+  border: yellow solid 1px;
+  color: yellow;
 }
 header h1 {
   margin: auto 0px;
@@ -273,4 +280,133 @@ main ul li::before {
   margin: 40px 0px;
   font-size: 20px;
   border-radius: 25px;
+}
+#payoutBtn:active {
+  transform: translateY(4px);
+}
+#payoutBtn:hover {
+  outline: solid 2px yellow;
+}
+body > main > section:nth-child(5) {
+  border-top: solid 4px darkred;
+  border-bottom: solid 4px darkred;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#address {
+  font-size: 20px;
+  color: white;
+  font-weight: 200;
+}
+#contract {
+  text-align: start;
+  margin: 100px 0px;
+  margin-bottom: 120px;
+}
+#contractCopybtn {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+#contractCopybtn > button {
+  padding: 10px 15px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: solid yellow 2px;
+  background-color: rgba(239, 30, 30, 0.324);
+  color: white;
+}
+#contractCopybtn > button:hover {
+  background-color: rgba(255, 0, 0, 0.643);
+}
+#contractCopybtn > span {
+  padding: 10px 15px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: solid yellow 2px;
+  border-right-width: 0px;
+}
+#socials {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.socialsCards {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  border: solid white 2px;
+  border-radius: 20px;
+  padding: 10px;
+}
+.socialsLogo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 2px yellow;
+  background-color: red;
+}
+.sCT {
+  margin: auto 20px;
+  display: flex;
+  flex-direction: column;
+  padding: auto;
+  text-align: start;
+}
+.sCT > span:first-child {
+  font-weight: 100;
+  font-size: 14px;
+}
+.sCT > span:last-child {
+  font-weight: 900;
+  font-size: 20px;
+}
+.socialsFollowBtn {
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+.socialsFollowBtn > a {
+  text-decoration: none;
+  color: black;
+}
+.socialsFollowBtn:hover {
+  outline: solid yellow 2px;
+}
+.socialsFollowBtn:active {
+  transform: translateY(4px);
+}
+#socialsCardsParent {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 80px;
+}
+#socials > span:first-child {
+  color: yellow;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 16px;
+}
+#socials > span:last-of-type {
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+}
+footer {
+  text-align: center;
+  color: white;
+  background-color: brown;
+  padding: 20px 0px;
+}
+footer > span {
+  font-size: 10px;
+  font-weight: 100;
 }
